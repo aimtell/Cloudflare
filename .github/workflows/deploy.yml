@@ -18,3 +18,8 @@ jobs:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           apiKey: ${{ secrets.CF_AUTH_KEY }}
           email: ${{ secrets.CF_AUTH_EMAIL }} 
+        env:  
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_AUTH_KEY: ${{ secrets.CF_AUTH_KEY }}
+          CF_AUTH_EMAIL: ${{ secrets.CF_AUTH_EMAIL }}   
