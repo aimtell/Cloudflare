@@ -26,4 +26,4 @@ async function fetchAndLog(request) {
 
   return(fetch(request));
 
-}
+} 
