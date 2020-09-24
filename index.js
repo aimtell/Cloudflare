@@ -10,7 +10,7 @@ addEventListener('fetch', event => {
 
 /**
  * Fetch remote
- * @param {Request} request test
+ * @param {Request} request
  */
 
 async function fetchAndLog(request) {
